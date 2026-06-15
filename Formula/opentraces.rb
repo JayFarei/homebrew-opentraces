@@ -26,3 +26,5 @@ class Opentraces < Formula
     assert_match version.to_s, shell_output("#{bin}/ot --version")
   end
 end
+
+# write-access test perturbation — the release workflow should overwrite this
